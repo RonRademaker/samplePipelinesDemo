@@ -11,8 +11,9 @@ build:
 
 integrations:
   hub:
-    - integrationName: "shipdeploy"
-      type: docker
+    - integrationName: "Tutorial Ron"
+      type: ecr
+      region: eu-west-1
 #  notifications:
 #    - integrationName: "triggerPipelinesDemo"
 #      type: webhook
