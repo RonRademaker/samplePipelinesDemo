@@ -14,10 +14,10 @@ integrations:
     - integrationName: "Tutorial Ron"
       type: ecr
       region: eu-west-1
-#  notifications:
-#    - integrationName: "triggerPipelinesDemo"
-#      type: webhook
-#      payload:
-#        - versionName=$BRANCH.$BUILD_NUMBER
-#      on_success: always
-#      on_failure: never
+  notifications:
+    - integrationName: "TutorialRon"
+      type: webhook
+      payload:
+        - versionName=$BRANCH.$BUILD_NUMBER
+      on_success: always
+      on_failure: never
